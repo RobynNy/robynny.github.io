@@ -1,7 +1,6 @@
 <html> 
   <head> 
-    <title>Robyn Nysschens </title>
-  </head>
+    <meta property="og:title" content="robynny.github.io">
   
   <body> 
   <h1> Portfolio</h1>
