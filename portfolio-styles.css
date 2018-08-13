@@ -1,0 +1,150 @@
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+a {
+	color: rgb(113, 57, 88);
+	text-decoration: none;
+}
+
+a:active {
+	color: rgb(136, 71, 105 )
+}
+
+a img:hover {
+	filter: opacity(.5);
+	opacity: 0.5; /* ie support*/
+}
+
+body {
+	font-family: "Raleway";
+    text-align: center;
+    width: 100%;
+}
+
+button {
+	background-color: rgb(244, 147, 179);
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	margin-bottom: 3%;
+	margin-top: 3%;
+	padding: 10px;
+	
+}
+
+button:hover {
+	background-color: rgb(240, 119, 143);
+}
+
+footer {
+	margin-bottom: 2%;
+}
+
+header {
+	background-color: rgb(252, 228, 238);
+	padding: 2% 0;
+}
+
+h1 {
+	margin-top: 2%;
+}
+
+h2 {
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+p a {
+	text-decoration: underline;
+}
+
+section {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.description {
+	margin: 4% auto;
+	width: 80%;
+}
+
+.graphic {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.graphic img {
+	border: 2px solid rgb(229, 229, 224);
+	margin-top: 4%;
+	max-width: 300px;
+	width: 100%;
+}
+
+.img-space  {
+	text-decoration: none;
+
+}
+
+.live {
+	margin-right: 2%;
+}
+
+.website {
+	border: 2px solid rgb(229, 229, 224);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+	max-width: 500px;
+	width: 100%;
+}
+
+#illustration-section {
+	margin-bottom: 5%;
+}
+
+#illustration-section img {
+	margin-top: 4%;
+	max-width: 300px;
+	width: 100%;
+}
+
+#logo {
+	display: block;
+	margin: 0 auto;
+}
+
+@media only screen and (min-width: 775px) {
+	
+	.description {
+		width: 50%;
+	}
+	
+	.img-space {
+	    margin-right: 5%;
+    }
+} 
+
+@media only screen and (min-width: 1000px) {
+	
+    button {
+		margin-top: 1%;
+		margin-bottom: 1%;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	
+	.description {
+		width: 40%;
+	}
+	
+	.img-space {
+	    margin-right: 5%;
+    }
+} 
